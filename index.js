@@ -38,8 +38,8 @@ function wordsWithB(words) {
     if (words[i].startsWith("b")) {
       array.push(words[i])
   }
-  return array;
   }
+  return array;
 }
 console.log(wordsWithB(["bob", "brandon", "james"]))
 
