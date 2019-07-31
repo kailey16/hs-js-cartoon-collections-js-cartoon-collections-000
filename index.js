@@ -34,7 +34,7 @@ function findTheCheese (foods) {
 
 function wordWithB(words) {
   for (var i =0; i < words.length; i++) {
-    if ()
+    if (words[i])
   }
 }
 
