@@ -25,23 +25,23 @@ function longPlaneteerCalls(words) {
 
 function findTheCheese (foods) {
   for (var i = 0; i < foods.length; i++) {
-    if (foods[i] === "cheddar" || foods[i] == "gouda" || foods[i] == "camembert" || foods[i] == "swiss") {
+    if (foods[i] === "cheddar" || foods[i] == "gouda" || foods[i] == "camembert") {
       return foods[i];
     }
   }
   return "no cheese!";
 }
 
-function wordsWithB(words) {
-  var array = [];
-  for (var i =0; i < words.length; i++) {
-    if (words[i].startsWith("b")) {
-      array.push(words[i])
-  }
-  }
-  return array;
-}
-console.log(wordsWithB(["bob", "brandon", "james"]))
+//function wordsWithB(words) {
+//  var array = [];
+//  for (var i =0; i < words.length; i++) {
+//if (words[i].startsWith("b")) {
+//      array.push(words[i])
+//  }
+//  }
+//  return array;
+//}
+//console.log(wordsWithB(["bob", "brandon", "james"]))
 
 
 
