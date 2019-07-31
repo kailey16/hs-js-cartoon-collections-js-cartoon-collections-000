@@ -32,12 +32,16 @@ function findTheCheese (foods) {
   return "no cheese!";
 }
 
-function wordWithB(words) {
+function wordsWithB(words) {
   for (var i =0; i < words.length; i++) {
-    if (words[i])
+    if (words[i].startsWith("b")) {
+      var array = [];
+      array.push(words[i])
+  }
+  return array;
   }
 }
-
+console.log(wordsWithB(["bob", "brandon", "james"]))
 
 
 
